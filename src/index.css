@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-google-grey: #5f6368;
+}
+
+:root {
+  body {
+    background-color: #f7fafc;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
